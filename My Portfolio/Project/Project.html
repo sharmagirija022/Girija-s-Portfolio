@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Projects</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/About/about.html">About</a></li>
+            <li><a href="/Contact/contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="projects" aria-labelledby="projects-heading">
+        <div class="section-header">
+          <h2 id="projects-heading">Projects</h2>
+          <p>
+            Selected projects from my resume — interactive demos, responsive
+            websites, and small games built with Java, Spring, WordPress,
+            HTML/CSS/JS and PostgreSQL.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <!-- Featured: NGO Website -->
+          <article class="project-card featured" aria-labelledby="p1-title">
+            <div class="card-ribbon" aria-hidden="true">Live</div>
+
+            <div class="featured-left">
+              <div class="project-meta">
+                <h3 id="p1-title" class="project-title">
+                  NGO Website — MKSS (Mazdoor Kisan Shakti Sangathan)
+                </h3>
+                <div class="project-date">Jun 2025 — Aug 2025</div>
+              </div>
+
+              <p class="project-desc">
+                Developed a fully functional, accessible website for a
+                grassroots NGO using WordPress and custom HTML templates.
+                Focused on responsiveness, accessibility, multilingual support,
+                and smooth domain deployment via cPanel.
+              </p>
+
+              <ul class="project-points">
+                <li>
+                  Responsive, accessible navigation and content structure for
+                  low-bandwidth users.
+                </li>
+                <li>Multilingual readiness and on-page campaign highlights.</li>
+                <li>
+                  Deployed using WordPress + cPanel; domain setup and SSL
+                  configured.
+                </li>
+              </ul>
+
+              <div class="tech-row" style="margin-top: 12px">
+                <span class="tech-chip">WordPress</span>
+                <span class="tech-chip">HTML & CSS</span>
+                <span class="tech-chip">cPanel</span>
+                <span class="tech-chip">Accessibility</span>
+              </div>
+            </div>
+
+            <div class="featured-right">
+              <div>
+                <p
+                  style="
+                    color: var(--muted);
+                    font-size: 13px;
+                    margin: 0 0 10px 0;
+                  "
+                >
+                  Highlights
+                </p>
+                <ul class="project-points" style="margin-top: 6px">
+                  <li>Modern UI with campaign and contact sections.</li>
+                  <li>
+                    SEO-friendly structure & fast loading for donor access.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="project-actions">
+                <a
+                  class="btn btn-outline"
+                  href="https://mkssindia.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visit site</a
+                >
+                <a
+                  class="btn btn-primary"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Case notes</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Study Buddy -->
+          <article class="project-card" aria-labelledby="p2-title">
+            <div class="project-meta">
+              <h3 id="p2-title" class="project-title">
+                Study Buddy — Full Stack Web App
+              </h3>
+              <div class="project-date">Apr 2025 — May 2025</div>
+            </div>
+
+            <p class="project-desc">
+              A platform for students to share study resources with secure
+              authentication and PostgreSQL-backed storage. Designed for smooth
+              cross-device experience and privacy-first user flows.
+            </p>
+
+            <ul class="project-points">
+              <li>
+                Secure auth + role-based resource access (students /
+                contributors).
+              </li>
+              <li>
+                Resource upload/download with metadata and search support.
+              </li>
+              <li>Built with Spring Boot + Thymeleaf; PostgreSQL database.</li>
+            </ul>
+
+            <div class="tech-row" aria-hidden="true">
+              <span class="tech-chip">Spring Boot</span>
+              <span class="tech-chip">Thymeleaf</span>
+              <span class="tech-chip">PostgreSQL</span>
+              <span class="tech-chip">Auth</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-outline" href="#" target="_blank" rel="noopener"
+                >Demo</a
+              >
+              <a class="btn btn-primary" href="#" target="_blank" rel="noopener"
+                >Source</a
+              >
+            </div>
+          </article>
+
+          <!-- Mini Game App -->
+          <article class="project-card" aria-labelledby="p3-title">
+            <div class="project-meta">
+              <h3 id="p3-title" class="project-title">
+                Mini Game App (ECA Games)
+              </h3>
+              <div class="project-date">Sep 2024</div>
+            </div>
+
+            <p class="project-desc">
+              Multi-game platform built with Java and browser technologies.
+              Focused on smooth animations and lightweight performance for
+              mobile and desktop browsers.
+            </p>
+
+            <ul class="project-points">
+              <li>Platform to host multiple mini-games; modular design.</li>
+              <li>Optimized game logic & animations for responsive UX.</li>
+            </ul>
+
+            <div class="tech-row">
+              <span class="tech-chip">Java</span>
+              <span class="tech-chip">HTML/CSS/JS</span>
+              <span class="tech-chip">Canvas</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-outline" href="#" target="_blank" rel="noopener"
+                >Play</a
+              >
+              <a class="btn btn-primary" href="#" target="_blank" rel="noopener"
+                >Source</a
+              >
+            </div>
+          </article>
+
+          <!-- Tic Tac Toe -->
+          <article class="project-card" aria-labelledby="p4-title">
+            <div class="project-meta">
+              <h3 id="p4-title" class="project-title">Tic Tac Toe Game</h3>
+              <div class="project-date">Aug 2024</div>
+            </div>
+
+            <p class="project-desc">
+              A small, well-structured Tic Tac Toe implementation with
+              responsive layout, accessible controls, and smooth interactions.
+            </p>
+
+            <ul class="project-points">
+              <li>
+                Clean game logic with win/draw detection and restart flow.
+              </li>
+              <li>Keyboard accessible and mobile-friendly layout.</li>
+            </ul>
+
+            <div class="tech-row">
+              <span class="tech-chip">HTML</span>
+              <span class="tech-chip">CSS</span>
+              <span class="tech-chip">JavaScript</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-outline" href="#" target="_blank" rel="noopener"
+                >Play</a
+              >
+              <a class="btn btn-primary" href="#" target="_blank" rel="noopener"
+                >Source</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
